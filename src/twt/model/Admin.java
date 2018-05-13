@@ -4,14 +4,14 @@ public class Admin {
 	public int id;
 	public String name;
 	public String phone;
-	public int getId() {
-		return id;
-	}
 	public Admin(int id, String name, String phone) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.phone = phone;
+	}
+	public int getId() {
+		return id;
 	}
 	public void setId(int id) {
 		this.id = id;
